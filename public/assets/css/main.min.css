@@ -334,7 +334,7 @@ h4,
 h5,
 h6 {
   margin-bottom: 0.5rem;
-  font-family: inherit;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 500;
   line-height: 1.2;
   color: inherit;
@@ -8334,7 +8334,7 @@ section.resource-section {
 }
 .section-title h2 {
   position: relative;
-  font-family: Playfair Display, serif;
+  font-family: Playfair Display, Verdana, Geneva, Tahoma, sans-serif;
   font-size: 28px;
   font-weight: 600;
   line-height: 1.357;
@@ -8352,7 +8352,7 @@ section.resource-section {
   width: 100%;
   max-width: 580px;
   margin: 20px auto 0;
-  font-family: Lora, serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 400;
   color: #32353b;
 }
@@ -8457,7 +8457,7 @@ body.loading-on {
   }
 }
 .text-paragraph {
-  font-family: Lora, serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .btn {
   border: 0;
@@ -8607,7 +8607,7 @@ body.loading-on {
 }
 .card.card-error .caption h1 {
   width: auto;
-  font-family: Playfair Display, serif;
+  font-family: Playfair Display, Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 700;
   font-size: 2rem;
   animation: b 0.7s ease forwards;
@@ -8708,7 +8708,7 @@ body.loading-on {
 }
 .contact-modal .modal-body h3 {
   margin: 0;
-  font-family: Playfair Display, serif;
+  font-family: Playfair Display, Verdana, Geneva, Tahoma, sans-serif;
   font-size: 45px;
 }
 .contact-modal .modal-body p {
@@ -9729,7 +9729,7 @@ footer {
   margin: 0 auto;
 }
 .hero-text h1 {
-  font-family: Playfair Display, serif;
+  font-family: Playfair Display, Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 700;
   font-size: 55px;
   line-height: 1;
@@ -10147,7 +10147,7 @@ footer {
   margin: 16px auto 0;
 }
 .service-detail h3 {
-  font-family: Montserrat, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 0.75rem;
   line-height: 14px;
   letter-spacing: 1.38px;
@@ -10164,7 +10164,7 @@ footer {
 .service-detail p {
   display: none;
   margin-top: 15px;
-  font-family: Lora, serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 15;
   line-height: 1.73;
   letter-spacing: 0.5px;
@@ -10429,6 +10429,31 @@ footer {
     margin: 98px 0 -94px;
   }
 }
+.work-list.software-works .btn-work,
+.work-list.software-works .btn-work:not(:disabled):not(.disabled).active,
+.work-list.software-works .btn-work:not(:disabled):not(.disabled):active {
+  background-image: linear-gradient(135deg, #8254e5, #83afe3 150%);
+  box-shadow: 0 11px 36px 0 rgba(70, 89, 138, 0.25);
+}
+.work-list.software-works .work-image {
+  background-color: #f8f8fa;
+}
+.work-list.software-works .work-image img {
+  max-width: 252px;
+}
+.work-list.software-works .work-image:before {
+  width: 100%;
+  height: 100%;
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 0;
+  background-image: url(../images/softwaretroopers.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+}
 .work-list.calendar-works .btn-work,
 .work-list.calendar-works .btn-work:not(:disabled):not(.disabled).active,
 .work-list.calendar-works .btn-work:not(:disabled):not(.disabled):active {
@@ -10514,6 +10539,36 @@ footer {
   background-position: 0 0;
   background-size: 100% auto;
 }
+.work-list.post-works .btn-work,
+.work-list.post-works .btn-work:not(:disabled):not(.disabled).active,
+.work-list.post-works .btn-work:not(:disabled):not(.disabled):active {
+  background-image: linear-gradient(225deg, #1ad4bb, #b2de94);
+  box-shadow: 0 11px 36px 0 rgba(70, 89, 138, 0.25);
+}
+.work-list.post-works .work-image {
+  background-image: linear-gradient(225deg, #0abac2, #b2de94);
+}
+.work-list.post-works .work-image img {
+  max-width: 201px;
+}
+@media (min-width: 992px) {
+  .work-list.post-works .work-image img {
+    max-width: 268px;
+  }
+}
+.work-list.post-works .work-image:before {
+  width: 100%;
+  height: 100%;
+  content: "";
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  right: 0;
+  background-image: url(../images/post.png);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: 100% auto;
+}
 .work-list:nth-child(odd) .work-wrapper {
   -ms-flex-direction: column-reverse;
   flex-direction: column-reverse;
@@ -10591,7 +10646,7 @@ footer {
   text-align: center;
 }
 .work-description h3 {
-  font-family: Playfair Display, serif;
+  font-family: Playfair Display, Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 700;
   font-size: 1.625rem;
   line-height: 1.33;
@@ -11231,7 +11286,7 @@ footer {
   text-align: center;
 }
 .error-text h1 {
-  font-family: Playfair Display, serif;
+  font-family: Playfair Display, Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 700;
   font-size: 45px;
   line-height: 1.25;
@@ -11257,7 +11312,7 @@ footer {
   width: 100%;
   max-width: 300px;
   margin: 10px auto 0;
-  font-family: Lora, serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 13px;
   line-height: 1.5;
   letter-spacing: 0.5px;
@@ -11287,7 +11342,7 @@ footer {
 }
 .maintenance-wrapper h2 {
   margin-top: 24px;
-  font-family: Playfair Display, serif;
+  font-family: Playfair Display, Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 700;
   font-size: 1.75rem;
   letter-spacing: 1px;
@@ -11923,7 +11978,7 @@ footer {
 }
 .blog-hero-text h1 {
   margin: 0;
-  font-family: Playfair Display, serif;
+  font-family: Playfair Display, Verdana, Geneva, Tahoma, sans-serif;
   font-size: 55px;
   line-height: 1.15;
   letter-spacing: -1px;
@@ -12228,7 +12283,7 @@ footer {
   margin: 30px 0 60px;
 }
 .resources-title h1 {
-  font-family: Playfair Display, serif;
+  font-family: Playfair Display, Verdana, Geneva, Tahoma, sans-serif;
   font-size: 2.125rem;
   font-weight: 700;
   line-height: 46px;
@@ -12341,7 +12396,7 @@ footer {
   text-align: center;
 }
 .resources-list-description h3 {
-  font-family: Playfair Display, serif;
+  font-family: Playfair Display, Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 700;
   font-size: 1.625rem;
   line-height: 1.33;
@@ -12480,7 +12535,7 @@ footer {
   margin-top: 40px;
 }
 .resource-detail-content h1 {
-  font-family: Playfair Display, serif;
+  font-family: Playfair Display, Verdana, Geneva, Tahoma, sans-serif;
   font-size: 2.125rem;
   font-weight: 700;
   line-height: 46px;
@@ -12629,7 +12684,7 @@ footer {
   margin-top: 15px;
   margin-bottom: 28px;
   font-size: 13px;
-  font-family: Lora, serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .product-item .product-price {
   font-size: 22px;
@@ -12897,7 +12952,7 @@ footer {
   margin-bottom: 0;
 }
 .product-detail__sidebar .card.card-features ul li span {
-  font-family: Lora, serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .product-detail__sidebar .card.card-features ul li span img {
   height: 20px;
@@ -12939,7 +12994,7 @@ footer {
   padding-bottom: 15px;
 }
 .product-detail__description p {
-  font-family: Lora, serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   letter-spacing: 1px;
   line-height: 25px;
 }
@@ -13064,7 +13119,7 @@ footer {
   top: 8px;
 }
 .features-collapse p {
-  font-family: Lora, serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin-bottom: 10px;
   font-size: 13px;
 }
