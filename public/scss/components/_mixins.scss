@@ -1,20 +1,24 @@
 @use '../custom' as *;
 
-// GRADIENT MIXIN 
+// GRADIENT MIXIN
 @mixin gradient {
-    background: linear-gradient(to right, rgba($primary, 0.95), rgba($secondary, 0.95));
+  background: linear-gradient(
+    to right,
+    rgba(#5e00ac, 0.95),
+    rgba(#32abca, 0.95)
+  );
 }
 
-// ABSOLUTE CENTER 
+// ABSOLUTE CENTER
 @mixin absoluteCenter {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-// TRANSITION PROPERTY 
+// TRANSITION PROPERTY
 @mixin transitionProperty {
-    transition-duration: 1s;
-    transition-property: all;
+  transition-duration: 1s;
+  transition-property: all;
 }

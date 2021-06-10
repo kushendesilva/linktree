@@ -2,23 +2,19 @@
 @use '../components/mixins' as *;
 
 .menu {
-    @include gradient;
+  @include gradient;
 
+  li {
+    padding: 0 0.7rem;
 
-    li {
+    a {
+      color: $white;
       padding: 0 0.7rem;
-
-      a {
-        color: $white;
-        padding: 0 0.7rem;
-        text-transform: capitalize;
-        font-weight: 600;      
-
-      }
-      &:hover {
-        color: $white;
-      }
-  
+      text-transform: capitalize;
+      font-weight: 600;
     }
-    
+    &:hover {
+      color: $white;
+    }
+  }
 }
