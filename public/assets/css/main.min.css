@@ -80,6 +80,11 @@ body {
 [tabindex="-1"]:focus {
   outline: 0 !important;
 }
+body .nav-link {
+  line-height: 1.5;
+  margin-bottom: 2vh;
+  margin-top: 1vh;
+}
 hr {
   box-sizing: content-box;
   height: 0;
