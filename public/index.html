@@ -24,7 +24,7 @@
     <meta name="author" content="Kushen De Silva, kushenthimira@gmail.com" />
     <meta name="copyright" content="Kushen De Silva" />
     <title>Kushen De Silva</title>
-    <link rel="icon" type="image/png" href="img/logo.png" />
+    <link rel="icon" type="image/png" href="/private/img/logo.png" />
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -40,11 +40,14 @@
     />
 
     <!-- Libraries Stylesheet -->
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
-    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
+    <link
+      href="/private/lib/owlcarousel/assets/owl.carousel.min.css"
+      rel="stylesheet"
+    />
+    <link href="/private/lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/style.css" rel="stylesheet" />
+    <link href="/private/css/style.css" rel="stylesheet" />
   </head>
 
   <body data-spy="scroll" data-target=".navbar" data-offset="51">
@@ -94,7 +97,7 @@
           <div class="col-lg-5 px-5 pl-lg-0 pb-5 pb-lg-0">
             <img
               class="img-fluid w-100 rounded-circle shadow-sm"
-              src="img/profile.jpg"
+              src="/private/img/profile.jpg"
               alt=""
             />
           </div>
@@ -136,7 +139,11 @@
         </div>
         <div class="row align-items-center">
           <div class="col-lg-5 pb-4 pb-lg-0">
-            <img class="img-fluid rounded w-100" src="img/about.jpg" alt="" />
+            <img
+              class="img-fluid rounded w-100"
+              src="/private/img/about.jpg"
+              alt=""
+            />
           </div>
           <div class="col-lg-7">
             <h3 class="mb-4">Mobile Application Developer</h3>
@@ -165,19 +172,32 @@
                 <h6>Experience: <span class="text-secondary">1 Year</span></h6>
               </div>
               <div class="col-sm-6 py-2">
-                <h6>Phone: <span class="text-secondary">+94717827878</span></h6>
+                <h6>
+                  Phone:
+                  <a href="tel:0717827878"
+                    ><span class="text-secondary">+94717827878</span></a
+                  >
+                </h6>
               </div>
               <div class="col-sm-6 py-2">
                 <h6>
                   Email:
-                  <span class="text-secondary">kushenthimira@gmail.com</span>
+                  <a href="mailto:kushenthimira@gmail.com"
+                    ><span class="text-secondary"
+                      >kushenthimira@gmail.com</span
+                    ></a
+                  >
                 </h6>
               </div>
               <div class="col-sm-6 py-2">
                 <h6>
                   Address:
-                  <span class="text-secondary"
-                    >No.42, Vijithapura RD, Pita Kotte</span
+                  <a
+                    target="_blank"
+                    href="https://goo.gl/maps/42eMYaiNXbqKXPQN9"
+                    ><span class="text-secondary"
+                      >No.42, Vijithapura RD, Pita Kotte</span
+                    ></a
                   >
                 </h6>
               </div>
@@ -345,7 +365,7 @@
               </div>
               <div class="progress">
                 <div
-                  class="progress-bar bg-warning"
+                  class="progress-bar bg-primary"
                   role="progressbar"
                   aria-valuenow="50"
                   aria-valuemin="0"
@@ -360,8 +380,7 @@
               </div>
               <div class="progress">
                 <div
-                  style="background-color: rgb(225, 0, 255)"
-                  class="progress-bar"
+                  class="progress-bar bg-primary"
                   role="progressbar"
                   aria-valuenow="60"
                   aria-valuemin="0"
@@ -378,7 +397,7 @@
               </div>
               <div class="progress">
                 <div
-                  class="progress-bar bg-danger"
+                  class="progress-bar bg-primary"
                   role="progressbar"
                   aria-valuenow="50"
                   aria-valuemin="0"
@@ -393,7 +412,7 @@
               </div>
               <div class="progress">
                 <div
-                  class="progress-bar bg-dark"
+                  class="progress-bar bg-primary"
                   role="progressbar"
                   aria-valuenow="80"
                   aria-valuemin="0"
@@ -408,7 +427,7 @@
               </div>
               <div class="progress">
                 <div
-                  class="progress-bar bg-info"
+                  class="progress-bar bg-primary"
                   role="progressbar"
                   aria-valuenow="65"
                   aria-valuemin="0"
@@ -482,11 +501,6 @@
         <div class="d-flex justify-content-center mb-4">
           <a
             class="btn btn-light btn-social mr-2"
-            href="mailto:kushenthimira@gmail.com"
-            ><i class="fab fa-google"></i
-          ></a>
-          <a
-            class="btn btn-light btn-social mr-2"
             href="https://wa.me/94717827878"
             ><i class="fab fa-whatsapp"></i
           ></a>
@@ -510,7 +524,9 @@
           &copy;
           <a class="text-white font-weight-bold" href="#">Kushen.Tech</a>. All
           Rights Reserved. Designed by
-          <a class="text-white font-weight-bold" href="https://kushen.me"
+          <a
+            class="text-white font-weight-bold"
+            href="mailto:admin@kushen.tech, kushenthimira@gmail.com"
             >Kushen De Silva</a
           >
         </p>
@@ -529,18 +545,14 @@
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/typed/typed.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="lib/isotope/isotope.pkgd.min.js"></script>
-    <script src="lib/lightbox/js/lightbox.min.js"></script>
-
-    <!-- Contact Javascript File -->
-    <script src="mail/jqBootstrapValidation.min.js"></script>
-    <script src="mail/contact.js"></script>
+    <script src="/private/lib/typed/typed.min.js"></script>
+    <script src="/private/lib/easing/easing.min.js"></script>
+    <script src="/private/lib/waypoints/waypoints.min.js"></script>
+    <script src="/private/lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="/private/lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="/private/lib/lightbox/js/lightbox.min.js"></script>
 
     <!-- Template Javascript -->
-    <script src="js/main.js"></script>
+    <script src="/private/js/main.js"></script>
   </body>
 </html>
