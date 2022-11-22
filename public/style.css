@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 * {
-    padding: 0;
-    margin: 0;
-    font-family: 'Poppins', sans-serif;
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
 }
 body {
   display: flex;
@@ -11,7 +11,8 @@ body {
   height: 100vh;
   width: 100vw;
   overflow-x: hidden;
-  background: #e8eff7;
+  background: #000000;
+  color: white;
 }
 .grid-row {
   display: grid;
@@ -28,14 +29,18 @@ body {
   margin: auto;
 }
 .card {
-  background: #fff;
-  padding: 20px;
-  border-radius: 20px;
-  box-shadow: 0px 0px 10px rgb(0 0 0 / 20%);
+  background: linear-gradient(
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0.15),
+    rgba(255, 255, 255, 0.1)
+  );
+  padding: 30px;
+  margin: 20px 20px 0px 20px;
+  border-radius: 10px;
 }
 .card-top {
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
   overflow: hidden;
 }
 .card-info h2 {
@@ -45,7 +50,8 @@ body {
 .date {
   margin-bottom: 10px;
 }
-span,p {
+span,
+p {
   font-size: 15px;
   display: block;
 }
@@ -74,7 +80,7 @@ span,p {
 }
 .read-more {
   text-decoration: unset;
-  color: #000;
+  color: rgb(255, 255, 255);
   font-weight: 600;
 }
 .btn-yellow {
