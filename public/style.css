@@ -83,12 +83,6 @@ p {
   color: rgb(255, 255, 255);
   font-weight: 600;
 }
-.btn-yellow {
-  background: #ffb91d;
-}
-.btn-sky {
-  background: #d2f9fe;
-}
-.btn-dpink {
-  background: #e8d3fc;
+.btn-default {
+  background: #ffffff;
 }
